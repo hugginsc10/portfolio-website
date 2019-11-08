@@ -83,11 +83,12 @@ class Contact extends Component {
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+               <span><a href="tel:631-983-7235" className="fa fa-phone" alt="" style={{marginRight: 20}}></a>
+               <a href="tel:631-983-7235" alt="">631-983-7235</a></span>
 					   </p>
 				   </div>
 
-               <div className="widget widget_tweets">
+               {/* <div className="widget widget_tweets">
                   <h4 className="widget-title">Latest Tweets</h4>
                   <ul id="twitter">
                      <li>
@@ -107,7 +108,7 @@ class Contact extends Component {
                         <b><a href="#">3 Days Ago</a></b>
                      </li>
                   </ul>
-		         </div>
+		         </div> */}
             </aside>
       </div>
    </section>

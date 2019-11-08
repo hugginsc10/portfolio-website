@@ -18,9 +18,9 @@
     "resumedownload": "https://chashuggins.io",
     "social":[
       {
-        "name":"Angel List",
+        "name":"AngelList",
         "url":"https://angel.co/chas-huggins",
-        "className":"fa fa-angellist"
+        "className":"fab fa-angellist"
       },
       {
         "name":"linkedin",
@@ -98,22 +98,22 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Job Harmony",
+        "category": "An innovative application that is used by employers and job seekers in order to anonymously help experienced professionals find a job and employers to find outstanding employees",
         "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://job-harmony.herokuapp.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Save A Stray",
+        "category": "An application that connects animal shelters with adopters with the purpose of creating a convenient way for animals to be rescued",
         "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://save-a-stray.herokuapp.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Space Tetris",
+        "category": "A new spin on the 1984 classic arcade game developed using HTML5 and JavaScript",
         "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://tetris-space.herokuapp.com"
       },
       {
         "title":"Resume Website",
