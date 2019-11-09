@@ -46,10 +46,10 @@ class About extends React.Component {
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
-                     <Iframe src="/images/resume.pdf" className="button-view" display="hidden"><i className="fa fa-eye"></i>View Resume</Iframe>
-                  </p>
-               </div>
+                  <a href="/images/resume.pdf" className="button" > <i className="fa fa-eye" > </i>View Resume</a>
+               </p>
             </div>
+         </div>
          </div>
       </div>
 
