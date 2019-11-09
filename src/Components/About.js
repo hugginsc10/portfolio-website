@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Iframe from 'react-iframe';
-class About extends Component {
+class About extends React.Component {
   render() {
 
     if(this.props.data){
@@ -34,18 +34,13 @@ class About extends Component {
 						   <span>{street}<br />
 						         {city} {state}, {zip}
                    </span><br />
-						   <span>{phone}</span><br />
+						   <span><a href="tel:631-983-7235">{phone}</a></span><br />
                      <span>{email}</span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                    <Iframe url="https://github.com/hugginsc10/portfolio-website/blob/master/public/images/resume.pdf"
-                    src="/public/images/resume.pdf"
-                    width="100%"
-                    height="1150px"
-                    id="resume"
-                    className="fa fa-download"/>
+                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

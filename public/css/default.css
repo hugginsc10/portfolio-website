@@ -75,12 +75,17 @@ audio:not([controls]) {
 }
 
 [hidden] { display: none; }
+p.address {
+  color: #11abb0;
+}
 
 code, kbd, pre, samp {
    font-family: monospace, serif;
    font-size: 1em;
 }
-
+#about p.address {
+  color: #11abb0;
+}
 pre {
    white-space: pre;
    white-space: pre-wrap;

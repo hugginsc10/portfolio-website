@@ -38,7 +38,8 @@ class Header extends Component {
             <h3>I'm a New York City based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
-               {networks}
+              <li><a href="https://angel.co/chas-huggins" class="icon brands fa-angellist"></a></li>
+               <li>{networks}</li>
             </ul>
          </div>
       </div>
