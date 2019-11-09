@@ -83,8 +83,8 @@ class Contact extends Component {
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-               <span><a href="tel:631-983-7235" className="fa fa-phone" alt="" style={{marginRight: 20}}> </a>
-               <a href="tel:631-983-7235" alt="">631-983-7235</a></span> <br />
+               <a href="tel:631-983-7235" className="fa fa-phone" alt="" style={{marginRight: 20}}> </a>
+               <a href="tel:631-983-7235" alt="">631-983-7235</a> <br />
                <a href="mailto:hugginsc10@gmail.com" className="fa fa-envelope" style={{marginRight: 18}}> </a>
                <a href="mailto:hugginsc10@gmail.com" alt="">Hugginsc10@gmail.com</a>
 					   </p>

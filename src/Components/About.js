@@ -32,15 +32,19 @@ class About extends React.Component {
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{street}<br />
-						         {city} {state}, {zip}
+						         {city}, {state} {zip}
                    </span><br />
-						   <span><a href="tel:631-983-7235">{phone}</a></span><br />
-                     <span>{email}</span>
+                   <span id="phone-number">
+                <a href="tel:631-983-7235" className="fa fa-phone" alt="" style={{marginRight: 20}}> </a>
+                <a href="tel:631-983-7235" style={{color: `11abb0`}}>{phone}</a>
+                </span><br />
+                <a href="mailto:hugginsc10@gmail.com" className="fa fa-envelope" style={{marginRight: 18}}> </a> 
+               <a href="mailto:hugginsc10@gmail.com" alt="">{email}</a>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
