@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -118,7 +118,12 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
-
+a.angellist {
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, .8);
+  margin-right: 2vh;
+  justify-self: center;
+  padding-bottom: 2vh;
+}
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {

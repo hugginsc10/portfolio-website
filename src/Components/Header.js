@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { FaAngellist } from "react-icons/lib/fa";
 class Header extends Component {
   render() {
 
@@ -38,12 +38,13 @@ class Header extends Component {
             <h3>I'm a New York City based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
-              <li><a href="https://angel.co/chas-huggins" class="icon brands fa-angellist"></a></li>
-               <li>{networks}</li>
+                <li><a href="https://angel.co/chas-huggins" className="angellist"><FaAngellist /></a>
+               {networks}</li>
             </ul>
          </div>
       </div>
-
+      {/* FaAngellist */}
+{/* react - icons / lib / fa / angellist */}
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
       </p>

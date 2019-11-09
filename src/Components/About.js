@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Iframe from 'react-iframe';
+
 class About extends React.Component {
   render() {
 
@@ -45,7 +46,7 @@ class About extends React.Component {
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
-                     <Iframe src="/public/images/resume.pdf" width="100%" height="1150px" className="button"><i className="fa fa-eye"></i>View Resume</Iframe>
+                     <Iframe src="/images/resume.pdf" className="button-view" display="hidden"><i className="fa fa-eye"></i>View Resume</Iframe>
                   </p>
                </div>
             </div>
