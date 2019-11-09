@@ -40,7 +40,12 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                         <article id="resume" style="width:60rem">
+                            <h2 class="major">Resume</h2>
+                            <iframe src="/public/images/resume.pdf" width="100%" height="1150px"></iframe>
+                            <p><a href="https://github.com/ivopavlov87/portfolio/raw/master/assets/PAVLOV_IVO_RESUME.pdf">Download my resume as a PDF.</a></p>
+                         </article>
+                     <a src="/public/images/resume.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
