@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Iframe from 'react-iframe';
-
+import ResPDF from "./resume.pdf";
 class About extends React.Component {
+  onResumeClick() {
+    window.open(ResPDF);
+  }
   render() {
 
     if(this.props.data){
@@ -46,7 +49,7 @@ class About extends React.Component {
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
-                  <a href="/images/resume.pdf" className="button" > <i className="fa fa-eye" > </i>View Resume</a>
+                  <button className="button" onClick={() => window.open(ResPDF)}> <i className="fa fa-eye" > </i>View Resume</button>
                </p>
             </div>
          </div>

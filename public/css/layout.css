@@ -200,7 +200,8 @@ ul#nav li.current a { color: #F06000; }
 
 #about a, #about a:visited  { color: #7a7a7a; }
 #about a:hover, #about a:focus { color: #fff; }
-
+#about button, #about button:visited  { color: #7a7a7a; }
+#about button:hover, #about button:focus  { color: #fff; }
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
