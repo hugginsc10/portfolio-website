@@ -438,6 +438,9 @@ a.git-link {
   color: black;
   text-align-last: center;
 }
+a.git-link:hover{
+  color: #c6c7c7;
+}
 .project-title {
   color: black;
   text-align-last: center;
