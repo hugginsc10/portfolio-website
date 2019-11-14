@@ -434,6 +434,14 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    color: #95A3A3;
 }
+a.git-link {
+  color: black;
+  text-align-last: center;
+}
+.project-title {
+  color: black;
+  text-align-last: center;
+}
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
