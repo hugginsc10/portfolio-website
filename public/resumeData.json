@@ -33,61 +33,65 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"The Citadel",
+        "degree":"B.Sc Accounting and Economics",
+        "graduated":"May 2010",
+        "description":"The Citadel is a Senior Military College located in Charleston, South Carolina.  I had majored in Accounting and Economics where I had multiple courses in leadership, management, accounting, and some finance classes that utilized computer science concepts.  ie. Creating Microsoft Excel macros"
       },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
+      
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Vacheron Holdings LLC",
+        "title":"Maganging Partner",
+        "years":"January 2019 - Present",
+        "description":"Investment Company that looks for long-term alternative investments"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Vacheron Capital LLC",
+        "title":"Quantitative Trader",
+        "years":"October 2017 - Present",
+        "description":"Investment company that uses proprietary software to price derivatives and execute trades.  Actively seeks correlations between different assets in order to mitigate overall portfolio risk."
       }
     ],
     "skills":[
       {
+        "name":"Ruby / Rails",
+        "level":"80%"
+      },
+      {
         "name":"Git",
-        "level":"60%"
+        "level":"75%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"ReactJs / Redux",
+        "level":"80%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"60%"
       },
       {
         "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"NodeJs",
+        "level":"70%"
       },
       {
         "name":"MongoDB",
         "level":"80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "Python",
+        "level": "65%"
       }
+
     ]
   },
   "portfolio":{
