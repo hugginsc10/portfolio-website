@@ -49,7 +49,7 @@ class About extends React.Component {
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
-                  <button className="button" onClick={() => window.open(ResPDF)}> <i className="fa fa-eye" > </i>View Resume</button>
+                  <button className="button" onClick={() => window.open(ResPDF, "_blank")}> <i className="fa fa-eye" > </i>View Resume</button>
                </p>
             </div>
          </div>
