@@ -40,10 +40,10 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                         <article id="resume" style="width:60rem">
+                         <article id="resume" style={{width: 60}}>
                             <h2 class="major">Resume</h2>
                             <iframe src="/public/images/resume.pdf" width="100%" height="1150px"></iframe>
-                            <p><a href="https://github.com/ivopavlov87/portfolio/raw/master/assets/PAVLOV_IVO_RESUME.pdf">Download my resume as a PDF.</a></p>
+                           <a href="https://https://github.com/hugginsc10/portfolio-website/blob/master/public/images/resume.pdf"></a>
                          </article>
                      <a src="/public/images/resume.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
