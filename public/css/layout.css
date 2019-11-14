@@ -421,7 +421,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
-
+#portfolio-wrapper img {
+  height: 30vh;
+}
 #portfolio {
    background: #ebeeee;
    padding-top: 90px;
