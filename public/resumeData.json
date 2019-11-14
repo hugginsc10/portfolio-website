@@ -4,8 +4,8 @@
     "occupation":"Software Engineer",
     "description":"",
     "image":"profilepic.jpg",
-"bio":"I was born and raised on Long Island, NY.  I went to The Citadel, The Military College of South Carolina where I studied accounting and economics.  That is where I first started programming and a few years later I had then fell in love with programming and have since taught myself JavaScript, ReactJs, Redux, Apollo, Ruby on Rails, NodeJs, Express, MongoDB, GraphQL, and PostgreSQL. In my free time I love to travel, work on side projects and hang out with my puppy Skye.",
-    "contactmessage":"The easiest way to contact me is by email; however, feel free to call or leave a message here:",
+"bio":"I was born and raised on Long Island, NY.  I went to The Citadel, The Military College of South Carolina where I studied accounting and economics.  That is where I first started programming and a few years later I fell in love with software design and development and have since taught myself JavaScript, ReactJs, Redux, Apollo, Ruby on Rails, NodeJs, Express, MongoDB, GraphQL, and PostgreSQL. In my free time I love to travel, work on side projects and hang out with my puppy Skye.",
+    "contactmessage":"The easiest way to contact me is by e-mail; however, feel free to call or leave a message here:",
     "email": "hugginsc10@gmail.com",
     "phone": "631-983-7235",
     "address":{
@@ -30,7 +30,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"I first started coding in college where I wrote macros in VBA to help with modeling companies in Microsoft Excel.  Since then I have designed and develop multiple full stack applications using technologies ranging from React and Ruby on Rails to Apollo and NodeJs with GraphQL",
+    "skillmessage":"I first started coding in college where I wrote macros in VBA to help with modeling companies in Microsoft Excel.  Since then I have designed and developed multiple full stack applications using technologies ranging from React and Ruby on Rails to Apollo and NodeJs with GraphQL",
     "education":[
       {
         "school":"The Citadel",
