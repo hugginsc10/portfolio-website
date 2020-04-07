@@ -10,7 +10,7 @@ class Portfolio extends Component {
         <div className="project-title">{projects.title}</div>   
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
+               <img className="project-image" alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
