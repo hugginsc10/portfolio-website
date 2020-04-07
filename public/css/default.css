@@ -76,10 +76,17 @@ audio:not([controls]) {
 
 [hidden] { display: none; }
 
+
 code, kbd, pre, samp {
    font-family: monospace, serif;
    font-size: 1em;
 }
+/* #about p.address {
+  color: #11abb0;
+} */
+/* #about a {
+  color: #11abb0;
+} */
 
 pre {
    white-space: pre;
@@ -288,7 +295,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color:  white;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -441,10 +448,12 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .inactive,
 .pagination .inactive:hover {
-   background-color: #E6E8EB;
+   background-color: #11abb0;
 	color: #A9ADB2;
 }
-.pagination .prev, .pagination .next {}
+.pagination .prev, .pagination .next {
+  
+}
 
 /*  5. Images  --------------------------------------------------------- */
 
@@ -801,7 +810,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-

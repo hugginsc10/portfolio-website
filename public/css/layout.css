@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -118,7 +118,12 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
-
+a.angellist {
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, .8);
+  margin-right: 2vh;
+  justify-self: center;
+  padding-bottom: 2vh;
+}
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -193,9 +198,10 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
-
+#about a, #about a:visited  { color: #7a7a7a; }
+#about a:hover, #about a:focus { color: #fff; }
+#about button, #about button:visited  { color: #7a7a7a; }
+#about button:hover, #about button:focus  { color: #fff; }
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
@@ -428,6 +434,17 @@ ul#nav li.current a { color: #F06000; }
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+}
+a.git-link {
+  color: black;
+  text-align-last: center;
+}
+a.git-link:hover{
+  color: #c6c7c7;
+}
+.project-title {
+  color: black;
+  text-align-last: center;
 }
 
 /* Portfolio Content */
@@ -801,7 +818,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #7a7a7a; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {

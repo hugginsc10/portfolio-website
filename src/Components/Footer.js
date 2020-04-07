@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { FaAngellist } from 'react-icons/lib/fa';
 class Footer extends Component {
   render() {
 
@@ -15,7 +15,8 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
            <ul className="social-links">
-              {networks}
+             <li><a href="https://angel.co/chas-huggins" className="angellist"><FaAngellist /></a>
+               {networks}</li>
            </ul>
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>

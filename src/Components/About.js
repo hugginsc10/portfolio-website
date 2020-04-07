@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-
-class About extends Component {
+import Iframe from 'react-iframe';
+import ResPDF from "./resume.pdf";
+class About extends React.Component {
+  onResumeClick() {
+    window.open(ResPDF);
+  }
   render() {
 
     if(this.props.data){
@@ -32,23 +36,23 @@ class About extends Component {
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{street}<br />
-						         {city} {state}, {zip}
+						         {city}, {state} {zip}
                    </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                   <span id="phone-number">
+                <a href="tel:631-983-7235" className="fa fa-phone" alt="" style={{marginRight: 20}}> </a>
+                <a href="tel:631-983-7235" style={{color: `11abb0`}}>{phone}</a>
+                </span><br />
+                <a href="mailto:hugginsc10@gmail.com" className="fa fa-envelope" style={{marginRight: 18}}> </a> 
+               <a href="mailto:hugginsc10@gmail.com" alt="">{email}</a>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                         <article id="resume" style={{width: 60}}>
-                            <h2 class="major">Resume</h2>
-                            <iframe src="/public/images/resume.pdf" width="100%" height="1150px"></iframe>
-                           <a href="https://https://github.com/hugginsc10/portfolio-website/blob/master/public/images/resume.pdf"></a>
-                         </article>
-                     <a src="/public/images/resume.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
+                     <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
+                  <button className="button" onClick={() => window.open(ResPDF, "_blank")}> <i className="fa fa-eye" > </i>View Resume</button>
+               </p>
             </div>
+         </div>
          </div>
       </div>
 

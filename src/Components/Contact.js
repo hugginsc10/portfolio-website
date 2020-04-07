@@ -46,12 +46,12 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>/>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
@@ -79,12 +79,14 @@ class Contact extends Component {
                <div className="widget widget_contact">
 
 					   <h4>Address and Phone</h4>
-					   <p className="address">
+					   <p className="address" >
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-               <span><a href="tel:631-983-7235" className="fa fa-phone" alt="" style={{marginRight: 20}}></a>
-               <a href="tel:631-983-7235" alt="">631-983-7235</a></span>
+               <a href="tel:631-983-7235" className="fa fa-phone" alt="" style={{marginRight: 20}}> </a>
+               <a href="tel:631-983-7235" alt="">631-983-7235</a> <br />
+               <a href="mailto:hugginsc10@gmail.com" className="fa fa-envelope" style={{marginRight: 18}}> </a>
+               <a href="mailto:hugginsc10@gmail.com" alt="">Hugginsc10@gmail.com</a>
 					   </p>
 				   </div>
 
