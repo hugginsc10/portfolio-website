@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
+// import Iframe from 'react-iframe';
 import ResPDF from "./resume.pdf";
 class About extends React.Component {
   onResumeClick() {
