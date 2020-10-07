@@ -109,7 +109,7 @@
         "title": "Space Tetris",
         "category": "A new spin on the 1984 classic arcade game developed using HTML5 and JavaScript",
         "image": "tetris.jpg",
-        "url": "https://tetris-space.herokuapp.com",
+        "url": "https://spacetetris.herokuapp.com",
         "git": "https://github.com/hugginsc10/tetris"
       },
       {
