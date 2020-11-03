@@ -29,7 +29,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "I first started coding in college where I wrote macros in VBA to help with modeling companies in Microsoft Excel.  Since then I have designed and develop multiple full stack applications using technologies ranging from React and Ruby on Rails to Apollo and NodeJs with GraphQL",
+    "skillmessage": "",
     "education": [{
         "school": "The Citadel",
         "degree": "B.Sc Accounting and Economics",
