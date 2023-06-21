@@ -39,6 +39,13 @@
 
     ],
     "work": [{
+      "company": "Scrimmage Co.",
+      "title": "Technical Lead",
+      "years": "June 2021 - November 2022",
+      "description": "Sports Gaming Company that disrupted the market by introducing NFT rewards to bettors."
+
+    },
+      {
         "company": "Vacheron Holdings LLC",
         "title": "Maganging Partner",
         "years": "January 2019 - Present",
@@ -52,20 +59,20 @@
       }
     ],
     "skills": [{
-        "name": "Ruby / Rails",
+        "name": "ReactJS",
         "level": "80%"
       },
       {
-        "name": "Git",
-        "level": "75%"
+        "name": "Python",
+        "level": "90%"
       },
       {
-        "name": "ReactJs / Redux",
+        "name": "JavaScript",
         "level": "80%"
       },
       {
         "name": "CSS",
-        "level": "60%"
+        "level": "70%"
       },
       {
         "name": "HTML5",
@@ -76,16 +83,16 @@
         "level": "70%"
       },
       {
-        "name": "MongoDB",
+        "name": "SQL/No-SQL Databases",
         "level": "80%"
       },
       {
-        "name": "JavaScript",
+        "name": "Version Control",
         "level": "90%"
       },
       {
-        "name": "Python",
-        "level": "65%"
+        "name": "AWS",
+        "level": "80%"
       }
 
     ]
@@ -116,7 +123,7 @@
         "title": "Vacheron Clothing",
         "category": "An E-Commerce store made with React, Redux, Firebase, OAuth and Stripe API",
         "image": "vc-screen.png",
-        "url": "https://vacheron-clothing.herokuapp.com",
+        "url": "https://vacheron-clothing.firebaseapp.com",
         "git": "https://github.com/hugginsc10/e-commerce-app"
       }
     ]
