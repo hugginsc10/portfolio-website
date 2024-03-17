@@ -42,9 +42,15 @@
     ],
     "work":[
       {
+        "company":"Vacheron Capital LLC",
+        "title":"Quantitative Developer",
+        "years":"October 2017 - Present",
+        "description":"Investment company that uses proprietary software to price derivatives and execute trades.  Actively seeks correlations between different assets in order to mitigate overall portfolio risk."
+      },
+      {
         "company":"Scrimmage Co",
         "title":"Senior Software Engineer",
-        "years":"April 2019 - Present",
+        "years":"April 2019 - November 2023",
         "description":"Scrimmage Co is a sports betting NFT company that offers a wide range of sports betting services.  "
       },
       {
@@ -52,12 +58,6 @@
         "title":"Maganging Partner",
         "years":"January 2019 - Present",
         "description":"Investment Company that looks for long-term alternative investments"
-      },
-      {
-        "company":"Vacheron Capital LLC",
-        "title":"Quantitative Trader",
-        "years":"October 2017 - Present",
-        "description":"Investment company that uses proprietary software to price derivatives and execute trades.  Actively seeks correlations between different assets in order to mitigate overall portfolio risk."
       }
     ],
     "skills":[
