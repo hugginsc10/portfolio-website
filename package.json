@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "jquery": "^3.4.1",
     "react": "^16.11.0",
@@ -10,7 +10,7 @@
     "react-icons": "^2.2.7",
     "react-iframe": "^1.8.0",
     "react-pdf": "^4.1.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

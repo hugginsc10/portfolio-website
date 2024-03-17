@@ -1,131 +1,136 @@
 {
   "main": {
-    "name": "Chas Huggins",
-    "occupation": "Software Engineer",
-    "description": "",
-    "image": "profilepic.jpg",
-    "bio": "I was born and raised on Long Island, NY.  I went to The Citadel, The Military College of South Carolina where I studied accounting and economics.  This was my first introduction to programming.  After working in finance for a couple years I saw how inefficient some of the processes were and decided to research ways to automate them utilizing Python.  I fell in love with programming and have since  then taught myself JavaScript, ReactJs, Redux, Apollo, Ruby on Rails, NodeJs, Express, MongoDB, GraphQL, and PostgreSQL.  The ability to create anything that you can imagine is very powerful.  In my free time I love to travel, work on side projects and spend time with my puppy Skye.",
+    "name":"Chas Huggins",
+    "occupation":"Senior Software Engineer",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio": ["Hello! I’m Chas Huggins, a passionate and innovative software developer with roots in Long Island, NY. My journey in tech began at The Citadel, The Military College of South Carolina, where I pursued a degree in Accounting and Economics and got my first taste of programming. My career initially unfolded in finance, working at prestigious firms like Citigroup and HSBC, where I honed my skills in financial modeling and client management. However, it was during this time that I recognized the potential of technology to transform the finance sector.", "",  "Driven by a desire to innovate, I plunged into the world of programming, mastering languages and technologies such as Python, JavaScript, ReactJs, Ruby on Rails, NodeJs, and many more. My fascination lies in the power of code to turn ideas into reality. My professional path has led me to impactful roles like Senior Software Engineer at Scrimmage Co and Quantitative Developer at Vacheron Capital LLC, where I’ve made significant contributions through restructuring teams, mentoring, and developing advanced technological solutions.", "In every project I undertake, whether it’s the architecture of a React Native application or deploying a distributed data processing pipeline, I bring a blend of technical expertise and a deep understanding of finance. I thrive in environments that challenge me to think outside the box and encourage continuous learning.",  "When I’m not coding or unraveling complex data puzzles, you’ll find me traveling the world, working on diverse side projects, or spending quality time with my puppy, Skye. I believe that life is an adventure of continuous learning and growth, and I bring this philosophy to every aspect of my work and personal life."],
     "contactmessage": "The easiest way to contact me is by email; however, feel free to call or leave a message here:",
     "email": "hugginsc10@gmail.com",
     "phone": "631-983-7235",
-    "address": {
-      "street": "2 14th St PH6",
-      "city": "Hoboken",
-      "state": "NJ",
-      "zip": "07030"
+    "address":{
+      "street":"315 N State Road 7",
+      "city":"Fort Lauderdale",
+      "state":"Fl",
+      "zip": "33317"
     },
     "website": "https://chashuggins.io",
     "resumedownload": "https://github.com/hugginsc10/portfolio-website/raw/master/public/images/resume.pdf",
-    "social": [{
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/chas-huggins",
-        "className": "fa fa-linkedin"
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/chas-huggins",
+        "className":"fa fa-linkedin"
       },
       {
-        "name": "github",
-        "url": "http://github.com/hugginsc10",
-        "className": "fa fa-github"
+        "name":"github",
+        "url":"http://github.com/hugginsc10",
+        "className":"fa fa-github"
       }
     ]
   },
-  "resume": {
-    "skillmessage": "",
-    "education": [{
-        "school": "The Citadel",
-        "degree": "B.Sc Accounting and Economics",
-        "graduated": "May 2010",
-        "description": "The Citadel is a Senior Military College located in Charleston, South Carolina.  I had majored in Accounting and Economics where I had multiple courses in leadership, management, accounting, and some finance classes that utilized computer science concepts.  ie. Creating Microsoft Excel macros"
+  "resume":{
+    "skillmessage":"I first started coding in college where I wrote macros in VBA to build company valuation models in Microsoft Excel.  Since then I have designed and develop multiple full stack applications using technologies ranging from React and Ruby on Rails to Apollo and NodeJs with GraphQL",
+    "education":[
+      {
+        "school":"The Citadel",
+        "degree":"B.Sc Accounting and Economics",
+        "graduated":"May 2010",
+        "description":"The Citadel is a Senior Military College located in Charleston, South Carolina.  I had majored in Accounting and Economics where I had multiple courses in leadership, management, accounting, and some finance classes that utilized computer science concepts.  ie. using python to create data science models"
       }
 
     ],
-    "work": [{
-      "company": "Scrimmage Co.",
-      "title": "Technical Lead",
-      "years": "June 2021 - November 2022",
-      "description": "Sports Gaming Company that disrupted the market by introducing NFT rewards to bettors."
-
-    },
+    "work":[
       {
-        "company": "Vacheron Holdings LLC",
-        "title": "Maganging Partner",
-        "years": "January 2019 - Present",
-        "description": "Investment Company that looks for long-term alternative investments"
+        "company":"Scrimmage Co",
+        "title":"Senior Software Engineer",
+        "years":"April 2019 - Present",
+        "description":"Scrimmage Co is a sports betting NFT company that offers a wide range of sports betting services.  "
       },
       {
-        "company": "Vacheron Capital LLC",
-        "title": "Quantitative Trader",
-        "years": "October 2017 - Present",
-        "description": "Investment company that uses proprietary software to price derivatives and execute trades.  Actively seeks correlations between different assets in order to mitigate overall portfolio risk."
+        "company":"Vacheron Holdings LLC",
+        "title":"Maganging Partner",
+        "years":"January 2019 - Present",
+        "description":"Investment Company that looks for long-term alternative investments"
+      },
+      {
+        "company":"Vacheron Capital LLC",
+        "title":"Quantitative Trader",
+        "years":"October 2017 - Present",
+        "description":"Investment company that uses proprietary software to price derivatives and execute trades.  Actively seeks correlations between different assets in order to mitigate overall portfolio risk."
       }
     ],
-    "skills": [{
-        "name": "ReactJS",
-        "level": "80%"
+    "skills":[
+      {
+        "name":"Ruby / Rails",
+        "level":"80%"
       },
       {
-        "name": "Python",
-        "level": "90%"
+        "name":"Git",
+        "level":"75%"
+      },
+      {
+        "name":"ReactJs / Redux",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"NodeJs",
+        "level":"70%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
       },
       {
         "name": "JavaScript",
-        "level": "80%"
-      },
-      {
-        "name": "CSS",
-        "level": "70%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "NodeJs",
-        "level": "70%"
-      },
-      {
-        "name": "SQL/No-SQL Databases",
-        "level": "80%"
-      },
-      {
-        "name": "Version Control",
         "level": "90%"
       },
       {
-        "name": "AWS",
-        "level": "80%"
+        "name": "Python",
+        "level": "65%"
       }
 
     ]
   },
-  "portfolio": {
-    "projects": [{
-        "title": "Job Harmony",
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Job Harmony",
         "category": "An innovative application that is used by employers and job seekers in order to anonymously help experienced professionals find a job and employers to find outstanding employees",
-        "image": "job.jpg",
-        "url": "https://job-harmony.herokuapp.com",
-        "git": "https://github.com/donaldbatryn/job-harmony"
+        "image":"job.jpg",
+        "url":"https://job-harmony.herokuapp.com",
+        "git":"https://github.com/donaldbatryn/job-harmony"
       },
       {
-        "title": "Save A Stray",
+        "title":"Save A Stray",
         "category": "An application that connects animal shelters with adopters with the purpose of creating a convenient way for animals to be rescued",
-        "image": "sas-home.jpg",
-        "url": "https://save-a-stray.herokuapp.com",
-        "git": "Https://github.com/hugginsc10/save-a-stray"
+        "image":"sas-home.jpg",
+        "url":"https://save-a-stray.herokuapp.com",
+        "git":"Https://github.com/hugginsc10/save-a-stray"
       },
       {
-        "title": "Space Tetris",
+        "title":"Space Tetris",
         "category": "A new spin on the 1984 classic arcade game developed using HTML5 and JavaScript",
-        "image": "tetris.jpg",
-        "url": "https://spacetetris.herokuapp.com",
-        "git": "https://github.com/hugginsc10/tetris"
+        "image":"tetris.jpg",
+        "url":"https://tetris-space.herokuapp.com",
+        "git":"https://github.com/hugginsc10/tetris"
       },
       {
-        "title": "Vacheron Clothing",
-        "category": "An E-Commerce store made with React, Redux, Firebase, OAuth and Stripe API",
-        "image": "vc-screen.png",
-        "url": "https://vacheron-clothing.firebaseapp.com",
-        "git": "https://github.com/hugginsc10/e-commerce-app"
+        "title":"Resume Website",
+        "category": "A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"https://chashuggins.io",
+        "git":"https://github.com/hugginsc10/portfolio-website"
       }
     ]
   }
 }
+
