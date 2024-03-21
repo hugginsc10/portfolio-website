@@ -34,7 +34,7 @@
     "education":[
       {
         "school":"The Citadel",
-        "degree":"B.Sc Accounting and Economics",
+        "degree":"B.Sc Accounting",
         "graduated":"May 2010",
         "description":"The Citadel is a Senior Military College located in Charleston, South Carolina.  I had majored in Accounting and Economics where I had multiple courses in leadership, management, accounting, and some finance classes that utilized computer science concepts.  ie. using python to create data science models"
       }
@@ -51,7 +51,7 @@
         "company":"Scrimmage Co",
         "title":"Senior Software Engineer",
         "years":"April 2019 - November 2023",
-        "description":"Scrimmage Co is a sports betting NFT company that offers a wide range of sports betting services.  "
+        "description":"Scrimmage Co is a sports betting NFT company that offers a wide range of sports betting services."
       },
       {
         "company":"Vacheron Holdings LLC",
